@@ -16,4 +16,3 @@ class CreateSoupKitchens < ActiveRecord::Migration[5.2]
   end
 end
 
-SoupKitchens have_many :comments

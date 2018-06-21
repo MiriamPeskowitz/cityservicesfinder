@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  root "welcome#home"
+
+  # get '/signin', to: 'sessions#new', as: "signin"
+  # post '/signin', to: 'sessions#create'
+  # get '/logout', to: 'sessions#destroy'
+
   get 'welcome/home'
   get 'welcome/about'
   get 'welcome/contact'
@@ -7,8 +13,8 @@ Rails.application.routes.draw do
   get 'sessions/edit'
   get 'sessions/destroy'
 
-  resources :soupkitchens do
-  	resources :comments, only [:create]
+  resources :soup_kitchens do
+  	resources :comments
   end 
 
   # soupkitchen_comments SOUPKITCHEN /soupkitchens/:soupkitchen_id/comments(.:format) comments#create

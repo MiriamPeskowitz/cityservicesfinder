@@ -1,6 +1,8 @@
-# 
 
 
+soupkitchen = SoupKitchen.create(name: 'Phlly Restart', address: "19th St and Vine St", indoors: "outdoors")
+
+soupkitchen = SoupKitchen.create(name: 'Second Pilgrim Baptist Church', address: "554 N. 15th St", indoors: "indoor")
 
 
 # This file should contain all the record creation needed to seed the database with its default values.

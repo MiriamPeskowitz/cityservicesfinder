@@ -24,4 +24,17 @@ Enter your address or use geolocation.
 A. Focus on 10 places -- easy to get in. Maybe 5 shelters and 5 food pantries.community kitchens DID 11 SOUP KITCHENS
 B. Create comment capability for these -- for both using and contributing to. 
 C. back up -- models are: soupKitchens, users, comments, tags, Comments from owners, and how to contribute 
+D. what do the tags need -- name? 
+E. what about liking comments? -- https://stackoverflow.com/questions/29568787/how-to-like-comments
+http://paweljaniak.co.za/2013/07/25/5-star-ratings-with-rails/
+F. Welcome page: see all 
+	add a search feature: 
+	search a kitchen 
+	by geo -- your zipcode or by name (search/dropdown?)
+
+
+<!-- 
+<h3>To leave a comment: <%= link_to 'Signup' signup_path %>, <%= link_to "Login" login_path %> </h3>
+
+ -->
 

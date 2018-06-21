@@ -3,8 +3,12 @@
 <h3>Soupkitchens</h3>
 
 <ul>
-	<% @soupkitchen.comments.each do |comment| %>
-	<li><%= comment.title %> </li>
-	<li><%= comment.content %></li>
+	<% @soupkitchens.each do |soupkitchen| %>
+		<li><%= soupkitchen.name %> </li>
+		<li><%= soupkitchen.address %></li>
+		<li><%= soupkitchen.indoors %></li>
+		add comments here 
+	    add images 
+	<% end %>	
 </ul>
-
+  
