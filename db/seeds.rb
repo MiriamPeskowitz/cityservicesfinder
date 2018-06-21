@@ -12,6 +12,9 @@
 # #   Character.create(name: 'Luke', movie: movies.first)
 
 
+# https://github.com/CodeForPhilly/RAPper/blob/master/data.csv
+# https://github.com/hack4impact/philly-food-finder/blob/master/all_resources.csv
+
 # 173	SOUP_KITCHEN	Bright Hope Baptist Church	12th St and Cecil B. Moore Ave		Philadelphia	PA	19122	215-232-6004		Indoor							Yes		Yes	Yes	Yes	Yes		Yes			18:00	19:15	18:00	19:15	18:00	19:15	18:00	19:15			11:00	12:00
 # 174	SOUP_KITCHEN	Church of The Advocate	2121 N. Gratz St		Philadelphia	PA	19121	215-978-8000, ext 111		Indoor							Yes		Yes	Yes	Yes	Yes	Yes				12:00	15:00	10:00	14:00	12:00	15:00	12:00	15:00	12:00	15:00		
 # 175	SOUP_KITCHEN	First African Presbyterian Church	4159 W Girard Ave		Philadelphia	PA	19104	215-477-3100		Indoor							Yes				Yes										12:00	14:00						

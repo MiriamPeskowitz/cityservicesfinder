@@ -19,3 +19,9 @@ Enter as seeds.rb
 8. First steps? User sees a welcome page, which has a list of Fresh produce stores, community pantries, shelters, etc. Ie, Food, Shelter -- boxes, with dropdowns. Pick one --> goes to new page with that data, sorted by where you are. You can see info about it, including comments by other users, and you can leave a comment. This gets added to the db, 
 
 Enter your address or use geolocation.  
+
+
+A. Focus on 10 places -- easy to get in. Maybe 5 shelters and 5 food pantries.community kitchens DID 11 SOUP KITCHENS
+B. Create comment capability for these -- for both using and contributing to. 
+C. back up -- models are: soupKitchens, users, comments, tags, Comments from owners, and how to contribute 
+
