@@ -1,14 +1,25 @@
 class SoupKitchensController < ApplicationController
+before_action :set_SoupKitchen, only: [:show, :edit, :update, :destroy]
 
-	
+  def index
+  	@soupkitchens = SoupKitchen.all
+  end 
+
+  def new
 
 
-# 	def create 
-# 		@comment = Comment.new(comment_params)
-# 		@comment.post_id = params[:post_id]
-# 		@comment.save
-# 		redirect_to soupkitchen_path(@comment.soupkitchen)
+  def create 
 
-def comment_params
-	params.require(:comment).permit(:title, :content)
-end
+  def show
+
+  def edit 
+
+  def update
+
+  def destroy
+
+private
+def set_SoupKitchen
+	@attraction = SoupKitchen.find(params[:id])
+end 
+end 
