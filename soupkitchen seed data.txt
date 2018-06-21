@@ -1,0 +1,33 @@
+
+
+Name, Address, City, State, Zipcode, Phone, Indoor?
+Bright Hope Baptist Church, 12th St and Cecil B. Moore Ave,	Philadelphia, PA, 19122, 215-232-6004, Indoor
+Church of The Advocate,	2121 N. Gratz St, Philadelphia, PA, 9121, 215-978-8000 ext 111, Indoor		
+First African Presbyterian Church, 4159 W Girard Ave, Philadelphia, PA, 19104, 215-477-3100, Indoor						
+Genesis Ministries, 2229 N. Cleveland St, Philadelphia, PA, 19132, 215-232-2501, Indoor								
+Harambee Baptist Church, 5648 Chew Ave,	Philadelphia, PA, 19138, 215-849-8693 ext 6, Indoor			
+Holsey Temple, 5305-15 Germantown Ave, Philadelphia, PA, 19144, 215-848-2210, Indoor
+Face to Face Germantown, 109 E. Price St, Philadelphia,	PA,	19114, 215-849-0179, Indoor			
+Korean Philadelphia Church,	1200 W. Chelthenham Ave, Philadelphia, PA, 19126, 215-927-0630, Outdoors																												
+Philly Restart, 19th St and Vine St, Philadelphia, PA, 19103, none, Outdoors																
+St Frances Inn, 2441 Kensington Ave, Philadelphia, PA, 19125, 215-423-5845, Indoor
+Poplar St AME Zion Church, 5802 Musgrave St, Philadelphia, PA, 19138, 215-224-5122, Indoor							
+									
+179	SOUP_KITCHEN	Iglesia Cristiana Avivamiento	541 E. Cambria St		Philadelphia	PA	19134	215-758-5406		Indoor							Yes		Yes	Yes	Yes	Yes	Yes				12:00	15:00	12:00	15:00	12:00	15:00	12:00	15:00	12:00	15:00		
+180	SOUP_KITCHEN	Lombard Central Presbyterian Church	4201 Powelton Ave		Philadelphia	PA	19104	215-222-3044		Indoor							Yes			Yes	Yes	Yes	Yes						8:00	11:00	8:00	11:00	8:00	11:00	8:00	11:00		
+181	SOUP_KITCHEN	Memorial Tabernacle Baptist Church	2249 Hunting Park Ave		Philadelphia	PA	19140	215-229-5060		Indoor							Yes		Yes		Yes						10:00	13:00			10:00	14:00						
+182	SOUP_KITCHEN	Miller Memorial Baptist Church	1518 N. 22nd St		Philadelphia	PA	19121	215-765-3616		Indoor							Yes					Yes											12:00	13:30				
+183	SOUP_KITCHEN	Monumental Baptist Church	4948 Locust St		Philadelphia	PA	19139	215-476-4919		Indoor							Yes				Yes										12:00	13:00						
+184	SOUP_KITCHEN	Mt. Tabor Baptist Church	110 W. Rittenhouse St		Philadelphia	PA	19144	267-237-8596		Indoor							Yes					Yes											12:00	13:00				
+185	SOUP_KITCHEN	Mt. Zion Baptist Church	41 W. Rittenhouse St		Philadelphia	PA	19144	215-849-3749		Indoor							Yes				Yes										12:00	13:00						
+186	SOUP_KITCHEN	Mt. Olive Holy Temple	1469 N. Broad St		Philadelphia	PA	19122	267-983-6703		Indoor							Yes	Yes		Yes					14:00	15:00			13:00	14:00								
+187	SOUP_KITCHEN	New Jerusalem CDC	14 E. Clapier St		Philadelphia	PA	19144	215-844-7212		Indoor							Yes						Yes												13:00	15:00		
+188	SOUP_KITCHEN	Open Door Baptist Church	2314-16 N. 26th St		Philadelphia	PA	19121	267-258-9231		Indoor							Yes				Yes										11:00	14:00						
+189	SOUP_KITCHEN	Our Mother of Sorrows	1030 N. 48th St		Philadelphia	PA	19131	215-878-0875		Indoor							Yes		Yes	Yes	Yes						11:00	12:30	11:00	12:30	11:00	12:30						
+190	SOUP_KITCHEN	Philadelphia Brotherhood Rescue Mission	401 E. Girard Ave		Philadelphia	PA	19125	215-739-4517		Indoor							Yes		Yes	Yes	Yes	Yes	Yes				7:00	12:00	7:00	12:00	7:00	12:00	7:00	12:00	7:00	12:00		
+191	SOUP_KITCHEN	Poplar St AME Zion Church, Inc	5802 Musgrave St		Philadelphia	PA	19138	215-224-5122		Indoor							Yes				Yes										13:00	15:00						
+192	SOUP_KITCHEN	Prayer and Faith Temple Church of God in Christ	1541-59 N. 61st St		Philadelphia	PA	19151	267-752-1304		Indoor Only 3rd Saturday of each month							Yes							Yes													10:00	11:30
+193	SOUP_KITCHEN	Providence Baptist Church	87 E. Haines St		Philadelphia	PA	19144	215-438-3686		Indoor							Yes					Yes											11:00	12:15				
+194	SOUP_KITCHEN	Second Pilgrim Baptist Church	554 N. 15th St		Philadelphia	PA	19130	215-879-3417		Indoor							Yes			Yes									10:00	14:00			17:00	19:00				
+195	SOUP_KITCHEN	Sherwood Christian Outreach Center	5543 Willows Ave		Philadelphia	PA	19143	215-747-2685		Indoor							Yes			Yes		Yes							12:00	14:00			12:00	14:00				
+196	SO
