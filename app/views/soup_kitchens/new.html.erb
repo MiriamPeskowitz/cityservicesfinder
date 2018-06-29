@@ -1,0 +1,62 @@
+<h2>
+	Enter a new soup kitchen 
+</h2>
+  <% if @soupkitchen.errors.any? %>
+        <div id="error_explanation">
+            <h2>
+                <%= pluralize(@soupkitchen.errors.count, "error") %> prohibited this user from being saved:
+            </h2>
+
+            <ul>
+                <% @soupkitchen.errors.full_messages.each do |message| %>
+                    <li>
+                        <%= message %>
+                    </li>
+                    <% end %>
+            </ul>
+        </div>
+        <% end %>
+
+
+      <% if flash[:notice] %>
+        <div class="notice"><%= flash[:notice] %></div>
+    <% end %>  
+<%# how might I DRY out this code -- put in helper -- how to iterate.insert the local variable? %>
+
+<%= form_for @soupkitchen do |f| %>
+
+
+    <%= f.label :name %>
+    <%= f.text_field :name %>
+    <br>
+    
+    <%= f.label :address %>
+    <%= f.text_field :address %>
+    <br>
+
+
+    <%= f.label :city %>
+    <%= f.text_field :city %>
+    <br>
+    	
+    <%= f.label :state %>
+    <%= f.text_field :state %>
+    <br>
+
+
+    <%= f.label :zipcode %>
+    <%= f.text_field :zipcode %>
+    <br>
+
+    <%= f.label :phone %>
+    <%= f.text_field :phone %>
+    <br>
+
+    <%= f.label :indoors?  %>
+    <%= f.check_box :indoors, :checked => true %>
+    <br>
+
+    		
+
+    <%= f.submit %>
+<% end %>

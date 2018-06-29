@@ -1,0 +1,19 @@
+<p>
+<%= @soupkitchen.name %><br>
+<%= @soupkitchen.address %><br>
+<%= @soupkitchen.city %><br>
+<%= @soupkitchen.state %><br>
+<%= @soupkitchen.zipcode %><br>
+<%= @soupkitchen.phone %><br>
+<%= @soupkitchen.indoors %><br>
+</p>
+
+<h3>Comments</h3>
+
+<ul>
+	<%= @soupkitchen.comments.each do |comment| %>
+	<li><%= comment.content %> </li>
+	<% end %>
+</ul>
+
+<%= link_to "Add new comment", new_soup_kitchen_comment_path(@soupkitchen) %>

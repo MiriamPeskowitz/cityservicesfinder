@@ -5,19 +5,19 @@ Rails.application.routes.draw do
   # post '/signin', to: 'sessions#create'
   # get '/logout', to: 'sessions#destroy'
 
-  get 'welcome/home'
   get 'welcome/about'
   get 'welcome/contact'
-  get 'sessions/login'
-  get 'sessions/logout'
-  get 'sessions/edit'
-  get 'sessions/destroy'
+  get '/login', to: "sessions#new"
+  post '/login', to: "sessions#create"
+  get '/logout', to: "sessions#destroy"
+  
+  resources :users
 
-  resources :soup_kitchens do
-  	resources :comments
+  resources :soup_kitchens do 
+    resources :comments
   end 
 
-  # soupkitchen_comments SOUPKITCHEN /soupkitchens/:soupkitchen_id/comments(.:format) comments#create
+
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
 

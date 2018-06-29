@@ -10,16 +10,26 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_06_21_151006) do
+ActiveRecord::Schema.define(version: 2018_06_29_191805) do
 
   create_table "comments", force: :cascade do |t|
     t.string "title"
     t.text "content"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer "soup_kitchen_id"
   end
 
   create_table "food_pantries", force: :cascade do |t|
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "soup_kitchen_comments", force: :cascade do |t|
+    t.string "soup_kitchen_id"
+    t.string "comments_id"
+    t.boolean "approved_by_admin"
+    t.boolean "checked_for_tags"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

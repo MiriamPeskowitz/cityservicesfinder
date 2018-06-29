@@ -33,8 +33,24 @@ F. Welcome page: see all
 	by geo -- your zipcode or by name (search/dropdown?)
 
 
+G. comments connected to kitchens 
+
+
+
 <!-- 
 <h3>To leave a comment: <%= link_to 'Signup' signup_path %>, <%= link_to "Login" login_path %> </h3>
 
  -->
+image: 
+face to face: http://res.cloudinary.com/tech-stories/image/upload/v1529616612/facetofaceimage.png
 
+second pilgrim
+http://res.cloudinary.com/tech-stories/image/upload/v1529616890/Second_pilgrim_image.png
+
+philly restart 
+http://res.cloudinary.com/tech-stories/image/upload/v1529616767/Screen_Shot_2018-06-21_at_5.32.11_PM_httyeiphillyrestart%20iImage.png
+
+<!-- <% @soupkitchens.comments.each do |comment| %>
+		<li><%= comment.title %> </li>
+		<li><%= comment.content %></li>
+	<% end %>	 -->

@@ -1,6 +1,6 @@
 
 
-soupkitchen = SoupKitchen.create(name: 'Phlly Restart', address: "19th St and Vine St", indoors: "outdoors")
+soupkitchen = SoupKitchen.create(name: 'Philly Restart', address: "19th St and Vine St", indoors: "outdoors")
 
 soupkitchen = SoupKitchen.create(name: 'Second Pilgrim Baptist Church', address: "554 N. 15th St", indoors: "indoor")
 
