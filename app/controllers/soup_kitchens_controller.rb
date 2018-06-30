@@ -20,7 +20,8 @@ class SoupKitchensController < ApplicationController
   end
 
   def show
-    @comment = Comment.new
+    @comments = Comment.all
+    @soupkitchens = SoupKitchen.all
   end
 
   def edit 
